@@ -14,8 +14,42 @@ venv/*
 # Não inclua arquivos de configuração
 config.json
 
-# chart_ai não deve ser incluído no repositório
-chat_ai/*.json
-chat_ai/chroma_store
+# Não inclua arquivos de configuração do Streamlit
+encerrar_chatstremlit.bat
+executar_chatstreamlit.bat
 
-chat_ai/x*
+# chart_ai não deve ser incluído no repositório
+chat_ai/*
+!chat_ai/*.py  # Exceção para arquivos Python, se necessário
+
+# Arquivos de cache do Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Arquivos de cache do Streamlit
+.streamlit/
+
+# Arquivos de backup ou temporários
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Arquivos de compilação
+*.pyc
+*.pyd
+*.so
+
+# Arquivos de IDEs
+.vscode/
+.idea/
+*.iml
+
+# Arquivos de pacotes
+*.egg-info/
+dist/
+build/
+
+# Arquivos de teste
+*.test.*
