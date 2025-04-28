@@ -1,0 +1,13 @@
+https://pandoc.org/installing.html
+
+https://www.latex-project.org/get/
+
+https://miktex.org/download
+
+
+https://miktex-org.translate.goog/howto/install-miktex?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=sge#:~:text=Para%20configurar%20um%20sistema%20TeX,uma%20receita%20passo%20a%20passo.
+
+
+pip install --upgrade nbconvert
+
+

@@ -1,0 +1,31 @@
+Aula 10/04/2024
+* dotenv
+	- pip install dotenv
+
+* Banco de Dados
+	- relaciona/sql
+	- nosql
+	Vector Database (Chroma)
+
+	https://docs.trychroma.com/docs/overview/getting-started
+
+
+	Chat AI Free triel / API Key
+
+	https://groq.com/
+
+	https://aistudio.google.com/
+
+	https://huggingface.co/
+
+	https://www.together.ai/
+
+	https://www.anthropic.com/
+
+
+
+	Langchain
+	- pip install langchain
+	- pip install langchain-groq
+	- pip install langchain-openai
+	- pip install langchain-google-genai

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Formulário</title>
+</head>
+<body>
+    <h1>Chatbot Formulário</h1>
+    <form method="POST">
+        <label for="message">Digite sua mensagem:</label><br>
+        <input type="text" id="message" name="message" required><br><br>
+        <button type="submit">Enviar</button>
+    </form>
+
+    {% if user_message and bot_response %}
+        <h2>Mensagem do usuário:</h2>
+        <p>{{ user_message }}</p>
+        <h2>Resposta do chatbot:</h2>
+        <p>{{ bot_response }}</p>
+    {% endif %}
+
+    {% if table %}
+        {{ table | safe }}
+    {% endif %}
+
+
+</body>
+</html>

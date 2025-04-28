@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chat</title>
+</head>
+<body>
+<div class="container mt-5">
+    <h1>Chatbot Formulário</h1>
+    <form method="POST">
+
+    <div class="mb-3">
+        <label for="message" class="form-label">Digite sua mensagem:</label>
+        <input type="text" class="form-control" id="message"  name="message" required>
+    </div>
+<button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+
+
+
+{% if user_message and bot_response %}
+<h2>Mensagem do usuário:</h2>
+<p>{{ user_message }}</p>
+<h2>Resposta do chatbot:</h2>
+<p>{{ bot_response }}</p>
+{% endif %}
+
+{% if table %}
+{{ table | safe }}
+{% endif %}
+
+
+</div>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

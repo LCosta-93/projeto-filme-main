@@ -1,0 +1,21 @@
+# Não inclua arquivos de dados
+dados/filmes.db
+dados/filme_duckdb.db
+dados/filmes.zip
+dados/*
+venv/*
+
+# Não inclua arquivos de logs
+*.log
+
+# Não inclua variáveis de ambiente
+.env
+
+# Não inclua arquivos de configuração
+config.json
+
+# chart_ai não deve ser incluído no repositório
+chat_ai/*.json
+chat_ai/chroma_store
+
+chat_ai/x*

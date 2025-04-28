@@ -1,0 +1,18 @@
+{
+        'ids': [['tt0319779', 'tt0261111', 'tt0366505']],
+        'embeddings': None,
+        'documents': [
+            ['Un macho en la cárcel de mujeres',
+              'A Noite das Taras II',
+              'Galpa Holeo Satyi']],
+         'uris': None,
+          'included': ['metadatas', 'documents', 'distances'],
+          'data': None,
+          'metadatas': [[{'Ano': 1986, 'Filme': 'Un macho en la cárcel de mujeres'},
+                         {'Filme': 'A Noite das Taras II', 'Ano': 1982},
+                         {'Ano': 1966, 'Filme': 'Galpa Holeo Satyi'}]],
+        'distances': [[1.082432746887207, 1.3126657009124756, 1.429701805114746]]}
+
+
+
+        O filme  foi lançado no ano 
