@@ -15,10 +15,6 @@ venv/*
 # Não inclua arquivos de configuração
 config.json
 
-# chart_ai não deve ser incluído no repositório
-chat_ai/*
-!chat_ai/*.py  # Exceção para arquivos Python, se necessário
-
 # Arquivos de cache do Python
 __pycache__/
 *.py[cod]
