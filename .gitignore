@@ -10,13 +10,10 @@ venv/*
 
 # Não inclua variáveis de ambiente
 .env
+.env.exemplo
 
 # Não inclua arquivos de configuração
 config.json
-
-# Não inclua arquivos de configuração do Streamlit
-encerrar_chatstremlit.bat
-executar_chatstreamlit.bat
 
 # chart_ai não deve ser incluído no repositório
 chat_ai/*
